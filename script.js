@@ -12,8 +12,6 @@ submit.addEventListener("click", function (e) {
 
   const fecthAPI = async function (input) {
     try {
-      // renderSpinner(parentEl);
-
       const mark = `
       <div class="spinner"> 
       <p>Waiting for data....</p>
@@ -47,7 +45,7 @@ submit.addEventListener("click", function (e) {
             </div>
             <hr />
             <div class="country__icon">
-              <h1 class="continent">CONTINENT:${
+              <h1 class="continent">CONTINENT: ${
                 country__data.continents[0]
               }</h1>
             </div>
