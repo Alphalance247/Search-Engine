@@ -1,0 +1,40 @@
+body {
+  background-color: limegreen;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20rem;
+}
+
+.search-container form {
+  display: flex;
+  align-items: center;
+}
+
+.search-container input[type="text"] {
+  padding: 13px;
+  font-size: 1.3rem;
+  border-radius: 1em;
+  width: 30rem;
+  outline: none;
+  color: aqua;
+  border-color: blue;
+}
+
+.btn {
+  background-color: blue;
+  color: white;
+  padding: 1.2rem 2.5rem;
+  border-radius: 1em;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.9s;
+  margin-left: -7.4rem;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: darkblue;
+}
