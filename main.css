@@ -38,8 +38,8 @@ body {
   padding: 1em 0;
   border-radius: 20px;
   border-color: white;
-  font-size: 1.2em;
-  font-weight: bold;
+  font-size: 1.3em;
+  /* font-weight: bold; */
 }
 
 .btn {
